@@ -1,23 +1,26 @@
 # qa-ux-testing-portfolio
 
-## Project Overview
-QA testing for an e-commerce checkout project with both manual and automated tests, including bug reports and UX improvements.
+# Nicola's GitHub QA Portfolio
 
-## Testing Process
-The following testing strategies were implemented:
+Welcome to my GitHub repository, designed to demonstrate my skills and experience as a Quality Assurance (QA) Engineer. 
 
-1. **Manual Testing** - Functional, Usability, and Exploratory Tests
-2. **Automated Testing** - UI Flow and API Testing using Selenium and Postman
-3. **Bug Reporting** - Issues were tracked using Jira
+This repository contains a comprehensive collection of my work, showcasing my approach to QA, version control, CI/CD, automation, and more.
 
-## Tools & Technologies
-- **Selenium** for UI Automation
-- **Postman** for API Testing
-- **Jira** for bug tracking and reporting
-- **TestRail** for test case management
+## Table of Contents
 
-- For more details, explore the following sections:
-- **Test Cases**: /test-cases
-- **Automation Scripts**: /automation-scripts
-- **Bug Reports**: /bug-reports
-- **Documentation**: /documentation
+1. [Resume](#resume)
+3. [Automation Coding Project](#automation-coding-project)
+
+
+## Resume
+
+You can find my resume in this repository, providing a detailed overview of my work history, skills, and experience.
+
+[View My Resume](./resume.md)  <!-- Or link to a PDF: ./Resume.pdf -->
+
+## Automation Coding Project
+
+This is a practical project where I apply automation to solve real-world problems. You can review the code, run the tests, and see the results.
+
+ - [Automation Project](https://github.com/bennhub/GitHub-QA-Portfolio/tree/main/Automation-Project) 
+ - [Automation Project README](./Automation-Project/Automation-Demo.md)
