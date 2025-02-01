@@ -1,3 +1,3 @@
-remote_theme: pages-themes/massively
+remote_theme: aaron-bird/jekyll-theme-massively
 plugins:
   - jekyll-remote-theme
