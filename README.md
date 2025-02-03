@@ -22,10 +22,15 @@ You can find my resume in this repository, providing a detailed overview of my w
 [ISTQB Tester](./ISTQB_Certifications/Tester)
 
 [ISTQB Test Analyst](./ISTQB_Certifications/Test_Analyst)
+
 [ISTQB Test Manager](./ISTQB_Certifications/Test_Manager)
+
 [Professional Diploma in UX/UI Design](./UX_Design_Institute/UX_Design)
+
 [Agile Project Management](./Agile_Project_Management/AgilePMFoundation2025)
+
 [DCS Test Automation](./DCS_Test_Automation_Course/Automation)
+
 [IT Specialist DataBases](https://www.credly.com/earner/earned/badge/4b27d3ed-1459-4238-91d6-683f0493f2ac)
 
 ## Automation Coding Project
