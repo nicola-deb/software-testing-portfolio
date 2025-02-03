@@ -1,6 +1,6 @@
-describe('Final Homework in Cypress', () => {
+describe('Banking Project in Cypress', () => {
 
-    it('Final Homework in Cypress', () => {
+    it('Banking Project in Cypress', () => {
         // 1.  Open https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login website
         cy.visit('https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login')
         
