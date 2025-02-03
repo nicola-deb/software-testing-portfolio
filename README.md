@@ -21,7 +21,7 @@ You can find my resume in this repository, providing a detailed overview of my w
 ## Certifications
 [ISTQB Tester](./ISTQB_Certifications/Tester)
 
-[ISTQB Test Analyst](./ISTQB_Certifications/Test_Analyst)
+[ISTQB Test Analyst](https://github.com/nicola-deb/qa-testing-portfolio/tree/main/certifications/ISTQB_Certifications/Test_Analyst)
 
 [ISTQB Test Manager](./ISTQB_Certifications/Test_Manager)
 
