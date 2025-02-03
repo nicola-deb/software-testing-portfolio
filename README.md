@@ -35,9 +35,7 @@ You can find my resume in this repository, providing a detailed overview of my w
 
 ## Automation Coding Project
 
-This is a practical project where I use automation to test login, withdrawal and deposit features of a Banking Web Application.
-
- - [Automation Project](https://github.com/nicola-deb/qa-testing-portfolio/tree/main/test-automation)
+ - [Automation Project](https://github.com/nicola-deb/qa-testing-portfolio/tree/main/test-automation) - This is a practical project where I use automation to test login, withdrawal and deposit features of a Banking Web Application.
  
 Within the [cypress-script](https://github.com/nicola-deb/qa-testing-portfolio/tree/main/test-automation/cypress-script) folder, you will find a test script that uses the Cypress front-end testing tool, based on JavaScript. Cypress' architecture allows tests to run directly inside the browser, which enables a faster execution of test results.
 
