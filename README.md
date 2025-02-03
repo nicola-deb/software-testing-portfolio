@@ -38,9 +38,9 @@ You can find my resume in this repository, providing a detailed overview of my w
 This is a practical project where I use automation to test login, withdrawal and deposit features of a Banking Web Application.
 
  - [Automation Project](https://github.com/nicola-deb/qa-testing-portfolio/tree/main/test-automation)
+ - 
  
-Within the [cypress-script](https://github.com/nicola-deb/qa-testing-portfolio/tree/main/test-automation/cypress-script) folder, you will find a test script that uses the Cypress front-end testing tool, based on JavaScript. 
-Cypress' architecture allows tests to run directly inside the browser, which enables a faster execution of test results.
+Within the [cypress-script](https://github.com/nicola-deb/qa-testing-portfolio/tree/main/test-automation/cypress-script) folder, you will find a test script that uses the Cypress front-end testing tool, based on JavaScript. Cypress' architecture allows tests to run directly inside the browser, which enables a faster execution of test results.
 
 Within the [selenium-script](https://github.com/nicola-deb/qa-testing-portfolio/tree/main/test-automation/selenium-script) folder, you will find a test script that uses the Selenium test automation tool, based on Java in this instance. 
 Selenium's architecture allows tests to run across multiple browsers and environments by communicating with web drivers, enabling greater flexibility and compatibility for test automation.
