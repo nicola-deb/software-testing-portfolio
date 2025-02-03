@@ -19,7 +19,8 @@ You can find my resume in this repository, providing a detailed overview of my w
 
 
 ## Certifications
-[ISTQB Tester] (./qa-testing-portfolio/certifications/ISTQB Certifications)
+[ISTQB Tester](./ISTQB_Certifications/Tester)
+
 [ISTQB Test Analyst]
 [ISTQB Test Manager]
 [Professional Diploma in UX/UI Design]
