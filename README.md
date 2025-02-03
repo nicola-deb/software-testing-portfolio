@@ -25,7 +25,7 @@ You can find my resume in this repository, providing a detailed overview of my w
 
 [ISTQB Test Manager](./ISTQB_Certifications/Test_Manager)
 
-[Professional Diploma in UX/UI Design](./UX_Design_Institute/UX_Design)
+[Professional Diploma in UX Design](./UX_Design_Institute/UX_Design)
 
 [Agile Project Management](./Agile_Project_Management/AgilePMFoundation2025)
 
