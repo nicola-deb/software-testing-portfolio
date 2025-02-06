@@ -32,7 +32,7 @@ Tools & Technologies:  JIRA | Confluence | Git | Maven | Jenkins | Linux | Postm
 
 ## Certifications
 
-I am committed to my personal and professional development and strive to remain engaged and informed of emerging trends and technologies in the QA sphere. 
+I am committed to my personal and professional development and enjoy keeping engaged & informed of emerging trends and technologies in the QA sphere. 
 I am also an active member of the "Ministry of Testing", "uTEst" and "UX Design Institue" Communities. 
 
 [ISTQB Tester](./ISTQB_Certifications/Tester)
