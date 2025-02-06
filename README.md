@@ -1,8 +1,8 @@
 # Nicola's GitHub QA Portfolio
 
-Welcome to my GitHub repository, designed to demonstrate my skills and experience as a Quality Assurance (QA) Engineer. 
+Welcome to my GitHub repository, designed to demonstrate my skills and experience as a Software Test Engineer. 
 
-This repository contains a comprehensive collection of my work, showcasing my approach to QA, version control, CI/CD, automation, and more.
+This repository is a dynamic repository which contains a collection of my work, which will continue to be updated to showcase my approach to QA, version control, CI/CD, automation, and more.
 
 ## Table of Contents
 
@@ -33,9 +33,10 @@ You can find my resume in this repository, providing a detailed overview of my w
 
 [IT Specialist DataBases](https://www.credly.com/earner/earned/badge/4b27d3ed-1459-4238-91d6-683f0493f2ac)
 
+
 ## Automation Coding Project
 
-[Automation Project](https://github.com/nicola-deb/qa-testing-portfolio/tree/main/test-automation) - This is a practical project where I use automation to test login, withdrawal and deposit features of a Banking Web Application.
+This is a practical project where I use automation to test login, withdrawal and deposit features of a Banking Web Application.
  
 Within the [cypress-script](https://github.com/nicola-deb/qa-testing-portfolio/tree/main/test-automation/cypress-script) folder, you will find a test script that uses the Cypress front-end testing tool, based on JavaScript. Cypress' architecture allows tests to run directly inside the browser, which enables a faster execution of test results.
 
