@@ -6,8 +6,8 @@ This repository is a dynamic repository which will continue to be updated to sho
 
 ## Table of Contents
 
-1. [Personal Profile]
-2. [Key Skills]
+1. [Personal Profile](#profile)
+2. [Key Skills](#skills)
 3. [Certifications](#certifications)
 4. [Automation Coding Project](#automation-coding-project)
 
@@ -22,13 +22,11 @@ Having excelled in various QA-orientated roles across the software development l
 
 ## Key Skills
 
-Manual and Automated Testing: Expertise in designing, developing and executing comprehensive test plans according to acceptance criteria, using both automated and manual testing frameworks.
+Manual and Automated Test Planning | Communication & Collaboration | Critical Thinking & Attention to Detail
 
-Collaboration & Stakeholder Engagement: Proven ability to collaborate effectively with cross-functional and remote teams, to define testable user stories and acceptance criteria, ensuring alignment with project goals and customer needs.
+Strong Mentorship: Experience in QA Lead, Security Master and Scrum Master roles.
 
-Critical Thinking & Attention to Detail: A keen eye for detail, with critical and quality-oriented thinking, ensuring that tests thoroughly assess product functionality and usability, providing detailed test documentation to report test results, test progress, defects and product quality accurately.
-
-Strong Mentorship: Experience in leadership roles of QA Lead, Security Master and Scrum Master. Acted as SME during product introduction of the next-gen Network Management System at Ericsson. 
+Tools & Technologies:  JIRA | Confluence | Git | Maven | Jenkins | Linux | Postman REST API | Cypress | Selenium 
 
 
 ## Certifications
