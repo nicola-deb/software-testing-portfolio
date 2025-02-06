@@ -2,7 +2,7 @@
 
 Welcome to my GitHub repository, designed to demonstrate my skills and experience as a Software Test Engineer. 
 
-This repository is a live repository with the intention to showcase my approach to QA, automation, version control, CI/CD and more.
+This repository is a live repository with the intention to showcase my approach to QA methodologies, automation, version control, CI/CD and more.
 
 ## Table of Contents
 
