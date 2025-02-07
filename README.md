@@ -9,8 +9,8 @@ This repository is a dynamic repository created with the intention to showcase m
 1. [Personal Profile](#personal-profile)
 2. [Key Skills](#key-skills)
 3. [Certifications](#certifications)
-4. [QA Methodologies](#qa-methodologies)
-5. [Automation Coding Project](#automation-coding-project)
+4. [QA Methodologies](#qa-mindset--methodologies)
+5. [Automation Coding Project](#automation-testing-project)
 
 
 ## Personal Profile
@@ -27,11 +27,11 @@ As an experienced, results-driven Software QA Engineer, I deliver value in the f
 
 ## Key Skills
 
-<u>Core Testing Skills</u> : Test Planning & Strategy | Test Case Design | Manual Testing | Automation Testing | Defect Management | Troubleshooting
+<u>Core Testing Skills</u> : <br> Test Planning & Strategy | Test Case Design | Manual Testing | Automation Testing | Defect Management | Troubleshooting
 
-<u>Agile & Dev Lifecycle</u> : Agile Methodologies | Shift-Left Testing | CI/CD Pipelines | Cross-Collaboration
+<u>Agile & Dev Lifecycle</u> : <br> Agile Methodologies | Shift-Left Testing | CI/CD Pipelines | Cross-Collaboration
 
-<u>Tools & Technologies</u> :  JIRA | Confluence | Git | Jenkins | Linux | Postman REST API | Cypress | Selenium | Java | JavaScript | SQL 
+<u>Tools & Technologies</u> :  <br> JIRA | Confluence | Git Version Control | Jenkins | Linux | Postman REST API | Cypress | Selenium | Java | JavaScript | SQL | Visual Studio | IntelliJ IDE 
 
 
 ## Certifications
@@ -57,17 +57,19 @@ I am also an active member of the "Ministry of Testing", "uTest" and "UX Design 
 
 ## QA Mindset & Methodologies
 
-*My QA Mindeset* 
-[QA Mindset](./QA_Methodologies/QA_mindset)
+*[QA Mindset](./QA_Methodologies/QA_mindset)*
 
-*What makes a good Bug Report?* 
-[Defect Reporting](./QA_Methodologies/Defect_Reporting)
+*QA Strategy* 
+
+*[What makes a good Bug Report?](./QA_Methodologies/Defect_Reporting)*
+
+*Manual Exploratory Test*
+
+*Performance Test*
 
 
 
-
-
-## Automation Coding Project
+## Automation Testing Project
 
 This is a practical project where I use automation to test login, withdrawal and deposit features of a Banking Web Application.
  
