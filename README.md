@@ -27,11 +27,11 @@ As an experienced, results-driven Software QA Engineer, I deliver value in the f
 
 ## Key Skills
 
-<u>Core Testing Skills</u> : <br> Test Planning & Strategy | Test Case Design | Manual Testing | Automation Testing | Defect Management | Troubleshooting
+<u>Core Testing Skills</u> : <br> | Test Planning & Strategy | Test Case Design | Manual Testing | Automation Testing | Defect Management | Troubleshooting
 
-<u>Agile & Dev Lifecycle</u> : <br> Agile Methodologies | Shift-Left Testing | CI/CD Pipelines | Cross-Collaboration
+<u>Agile & Dev Lifecycle</u> : <br> | Agile Methodologies | Shift-Left Testing | CI/CD Pipelines | Cross-Collaboration
 
-<u>Tools & Technologies</u> :  <br> JIRA | Confluence | Git Version Control | Jenkins | Linux | Postman REST API | Cypress | Selenium | Java | JavaScript | SQL | Visual Studio | IntelliJ IDE 
+<u>Tools & Technologies</u> :  <br> | JIRA | Confluence | Git Version Control | Jenkins | Linux | Postman REST API | Cypress | Selenium | Java | JavaScript | SQL | Visual Studio | IntelliJ IDE 
 
 
 ## Certifications
