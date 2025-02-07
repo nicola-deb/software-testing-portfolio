@@ -17,20 +17,20 @@ This repository is a live repository with the intention to showcase my approach 
 
 As an experienced, results-driven Software QA Engineer, I deliver value in the following ways: 
 
-- Taking a strong sense of ownership for the quality of solution delivery and execution.
+- Taking a strong sense of ownership for the quality of the solution delivery and execution.
 - Actively collaborating in all phases of Software Test LifeCycle including design, development, and testing.
 - Executing manual and automated testing with a meticulous attention to detail.
-- Communicating the test status effectively & identifying issues/ risks to the project proactively.
+- Communicating the test status effectively & identifying issues / risks to the project proactively.
 - Analysing current processes and proposing recommendations for continuous process improvements.
 
 
 ## Key Skills
 
-Manual and Automated Test Planning | Communication & Collaboration | Critical Thinking & Attention to Detail
+Core Testing Skills : Test Planning & Strategy | Test Case Design | Manual Testing | Automation Testing | Defect Management | Troubleshooting
 
-Strong Mentorship: Experience in QA Lead, Security Master and Scrum Master roles.
+Agile & Dev Lifecycle : Agile Methodologies | Shift-Left Testing | CI/CD Pipelines | Cross-Collaboration
 
-Tools & Technologies:  JIRA | Confluence | Git | Maven | Jenkins | Linux | Postman REST API | Cypress | Selenium 
+Tools & Technologies:  JIRA | Confluence | Git | Jenkins | Linux | Postman REST API | Cypress | Selenium | Java | JavaScript | SQL 
 
 
 ## Certifications
