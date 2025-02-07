@@ -41,15 +41,15 @@ I am also an active member of the "Ministry of Testing", "uTest" and "UX Design 
 
 [ISTQB Tester](./Certifications/ISTQB_Certifications/Tester.pdf)
 
-[ISTQB Test Analyst](https://github.com/nicola-deb/qa-testing-portfolio/tree/main/Certifications/ISTQB_Certifications/Test_Analyst)
+[ISTQB Test Analyst](https://github.com/nicola-deb/qa-testing-portfolio/tree/main/Certifications/ISTQB_Certifications/Test_Analyst.pdf)
 
-[ISTQB Test Manager](./Certifications/ISTQB_Certifications/Test_Manager)
+[ISTQB Test Manager](./Certifications/ISTQB_Certifications/Test_Manager.pdf)
 
-[Professional Diploma in UX Design](./Certifications/UX_Design_Institute/UX_Design)
+[Professional Diploma in UX Design](./Certifications/UX_Design_Institute/UX_Design.pdf)
 
-[Agile Project Management](./Certifications/Agile_Project_Management/AgilePMFoundation2024)
+[Agile Project Management](./Certifications/Agile_Project_Management/AgilePMFoundation2024.pdf)
 
-[DCS Test Automation](./Certifications/DCS_Test_Automation_Course/Automation)
+[DCS Test Automation](./Certifications/DCS_Test_Automation_Course/Automation.pdf)
 
 [IT Specialist DataBases](https://www.credly.com/earner/earned/badge/4b27d3ed-1459-4238-91d6-683f0493f2ac)
 
