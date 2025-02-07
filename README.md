@@ -57,6 +57,7 @@ I am also an active member of the "Ministry of Testing", "uTest" and "UX Design 
 
 ## QA Methodologies
 
+*What makes a good Bug Report?* 
 [Defect Reporting](./QA_Methodologies/Defect_Reporting)
 
 
