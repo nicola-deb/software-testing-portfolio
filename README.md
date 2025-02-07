@@ -9,7 +9,7 @@ This repository is a dynamic repository created with the intention to showcase m
 1. [Personal Profile](#profile)
 2. [Key Skills](#skills)
 3. [Certifications](#certifications)
-4. [Defect Reporting](#defect-reporting)
+4. [QA Methodologies](#qa-methodologies)
 5. [Automation Coding Project](#automation-coding-project)
 
 
