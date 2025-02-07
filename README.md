@@ -20,7 +20,7 @@ As an experienced, results-driven Software QA Engineer, I deliver value in the f
 - Taking a strong sense of ownership for the quality of the solution delivery and execution.
 - Actively collaborating in all phases of Software Test LifeCycle including design, development, and testing.
 - Executing manual and automated testing with a meticulous attention to detail.
-- Communicating the test status effectively & identifying issues / risks to the project proactively.
+- Communicating the test status effectively & identifying issues/ risks to the project proactively.
 - Analysing current processes and proposing recommendations for continuous process improvements.
 
 
@@ -36,7 +36,7 @@ Tools & Technologies:  JIRA | Confluence | Git | Jenkins | Linux | Postman REST 
 ## Certifications
 
 I am committed to my personal and professional development and enjoy keeping engaged & informed of emerging trends and technologies in the QA sphere. 
-I am also an active member of the "Ministry of Testing", "uTEst" and "UX Design Institue" Communities. 
+I am also an active member of the "Ministry of Testing", "uTest" and "UX Design Institue" Communities. 
 
 [ISTQB Tester](./ISTQB_Certifications/Tester)
 
