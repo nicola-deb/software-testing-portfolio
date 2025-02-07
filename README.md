@@ -47,7 +47,7 @@ I am also an active member of the "Ministry of Testing", "uTest" and "UX Design 
 
 [Professional Diploma in UX Design](./Certifications/UX_Design_Institute/UX_Design.pdf)
 
-[Agile Project Management](./Certifications/Agile_Project_Management/AgilePMFoundation2024.pdf)
+[Agile Project Management](./Certifications/Agile_Project_Management/AgilePMCert2024.pdf)
 
 [DCS Test Automation](./Certifications/DCS_Test_Automation_Course/Automation.pdf)
 
@@ -55,7 +55,10 @@ I am also an active member of the "Ministry of Testing", "uTest" and "UX Design 
 
 
 
-## QA Methodologies
+## QA Mindset & Methodologies
+
+*My QA Mindeset* 
+[QA Mindset](./QA_Methodologies/QA_mindset)
 
 *What makes a good Bug Report?* 
 [Defect Reporting](./QA_Methodologies/Defect_Reporting)
