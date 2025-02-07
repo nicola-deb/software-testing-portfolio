@@ -10,6 +10,7 @@ This repository is a dynamic repository created with the intention to showcase m
 2. [Key Skills](#skills)
 3. [Certifications](#certifications)
 4. [Automation Coding Project](#automation-coding-project)
+5. [Defect Reporting](#defects)
    
 
 
@@ -66,11 +67,11 @@ Selenium's architecture allows tests to run across multiple browsers and environ
 
 ## Defect Reporting 
 
-What makes a good Bug Report? 
+*What makes a good Bug Report?* 
 
 Jira is my Defect Management tool of choice. And although the tool automatically handles the generation of many of the fields we need to consider when writing a good bug report, we shouldn't take this for granted. It is important to understand how to write a bug report that provides meaningful information for the person reviewing it - whether that's for the developer handling the fix, or the Project Manager who needs to track and/or understand how severely it impacts the product and the project timelines.
 
-The ISTQB standard of a Bug Report includes:
+*The ISTQB standard of a Bug Report includes:*
 
 - Unique identifier 
 - Title with a short summary of the anomaly being reported 
