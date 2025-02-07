@@ -40,7 +40,7 @@ I am also an active member of the "Ministry of Testing", "uTest" and "UX Design 
 
 [ISTQB Tester](./ISTQB_Certifications/Tester)
 
-[ISTQB Test Analyst](https://github.com/nicola-deb/qa-testing-portfolio/tree/main/certifications/ISTQB_Certifications/Test_Analyst)
+[ISTQB Test Analyst](https://github.com/nicola-deb/qa-testing-portfolio/tree/main/Certifications/ISTQB_Certifications/Test_Analyst)
 
 [ISTQB Test Manager](./ISTQB_Certifications/Test_Manager)
 
