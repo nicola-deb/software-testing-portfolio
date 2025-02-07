@@ -18,7 +18,7 @@ This repository is a dynamic repository created with the intention to showcase m
 As an experienced, results-driven Software QA Engineer, I deliver value in the following ways: 
 
 - Taking a strong sense of ownership for the quality of the solution delivery and execution.
-- Actively collaborate in all phases of Software Test LifeCycle including design, development, and testing.
+- Collaborating in all phases of Software Test LifeCycle including design, development, and testing.
 - Executing manual and automated testing with meticulous attention to detail.
 - Communicating the test status effectively & identifying issues/ risks to the project proactively.
 - Analysing current processes and proposing recommendations for continuous process improvements.
