@@ -38,7 +38,7 @@ Tools & Technologies:  JIRA | Confluence | Git | Jenkins | Linux | Postman REST 
 I am committed to my personal and professional development and enjoy keeping engaged & informed of emerging trends and technologies in the QA sphere. 
 I am also an active member of the "Ministry of Testing", "uTest" and "UX Design Institue" Communities. 
 
-[ISTQB Tester](./ISTQB_Certifications/Tester.pdf)
+[ISTQB Tester](./ISTQB_Certifications/Tester)
 
 [ISTQB Test Analyst](https://github.com/nicola-deb/qa-testing-portfolio/tree/main/certifications/ISTQB_Certifications/Test_Analyst)
 
