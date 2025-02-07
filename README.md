@@ -15,11 +15,14 @@ This repository is a live repository with the intention to showcase my approach 
 
 ## Personal Profile
 
-As a results-driven and detail-orientated Software QA Engineer, I bring extensive experience in driving product quality and enhancing user experience for complex web applications.
+As an experienced, results-driven Software QA Engineer, I deliver value in the following ways: 
 
-With a proven track record in designing and executing both manual and automated test strategies, I focus on delivering solutions that meet business and user needs, while providing accurate test reports to track progress and assess product quality.
+- Taking a strong sense of ownership for the quality of solution delivery and execution.
+- Actively collaborating in all phases of Software Test LifeCycle including design, development, and testing.
+- Executing manual and automated testing with a meticulous attention to detail.
+- Communicating the test status effectively & identifying issues/ risks to the project proactively.
+- Analysing current processes and proposing recommendations for continuous process improvements.
 
-Having excelled in various QA-orientated roles across the software development lifecycle, I am passionate about fostering a culture where quality is seamlessly integrated into every stage of development. I am dedicated to driving continuous process improvements to deliver high-performing, user-friendly and secure applications that exceed stakeholder expectations.
 
 ## Key Skills
 
