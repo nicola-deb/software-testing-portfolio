@@ -63,9 +63,19 @@ I am also an active member of the "Ministry of Testing", "uTest" and "UX Design 
 
 *[What makes a good Bug Report?](./QA_Methodologies/Defect_Reporting)*
 
-*Manual Exploratory Test*
+*Functional Testing*
 
-*Performance Test*
+*Non-Functional Testing*
+
+*Manual Exploratory Testing*
+
+*Performance Testing*
+
+"User Experience Testing*
+
+*Web Accessibility Testing"
+
+*Security Testing*
 
 
 
