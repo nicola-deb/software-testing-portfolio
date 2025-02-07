@@ -9,7 +9,7 @@ This repository is a dynamic repository created with the intention to showcase m
 1. [Personal Profile](#personal-profile)
 2. [Certifications](#certifications)
 3. [Key Skills](#key-skills)
-5. [QA Methodologies](#qa-mindset--methodologies)
+5. [QA Mindset & Methodologies](#qa-mindset--methodologies)
 6. [Automation Coding Project](#automation-testing-project)
 
 
@@ -48,11 +48,14 @@ I am also an active member of the "Ministry of Testing", "uTest" and "UX Design 
 
 ## Key Skills
 
-<u>Core Testing Skills</u> : <br> | Test Planning & Strategy | Test Case Design | Manual Testing | Automation Testing | Defect Management | Troubleshooting
+<u>Core Testing Skills</u>
+Test Planning & Strategy | Test Case Design | Manual Testing | Automation Testing | Defect Management | Troubleshooting
 
-<u>Agile & Dev Lifecycle</u> : <br> | Agile Methodologies | Shift-Left Testing | CI/CD Pipelines | Cross-Collaboration
+<u>Agile & Dev Lifecycle</u> 
+Agile Methodologies | Shift-Left Testing | CI/CD Pipelines | Cross-Collaboration
 
-<u>Tools & Technologies</u> :  <br> | JIRA | Confluence | Git Version Control | Jenkins | Linux | Postman REST API | Cypress | Selenium | Java | JavaScript | SQL | Visual Studio | IntelliJ IDE 
+<u>Tools & Technologies</u>
+JIRA | Confluence | Git Version Control | Jenkins | Linux | Postman REST API | Cypress | Selenium | Java | JavaScript | SQL | Visual Studio | IntelliJ IDE 
 
 
 
