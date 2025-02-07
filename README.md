@@ -45,7 +45,7 @@ I am also an active member of the "Ministry of Testing", "uTest" and "UX Design 
 
 [ISTQB Test Manager](./Certifications/ISTQB_Certifications/Test_Manager.pdf)
 
-[Professional Diploma in UX Design](./Certifications/UX_Design_Institute/UX_Design.pdf)
+[Professional Diploma in UI/UX Design](./Certifications/UX_Design_Institute/UX_Design.pdf)
 
 [Agile Project Management](./Certifications/Agile_Project_Management/AgilePMCert2024.pdf)
 
