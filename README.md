@@ -71,9 +71,9 @@ I am also an active member of the "Ministry of Testing", "uTest" and "UX Design 
 
 *Performance Testing*
 
-"User Experience Testing*
+*User Experience Testing*
 
-*Web Accessibility Testing"
+*Web Accessibility Testing*
 
 *Security Testing*
 
