@@ -7,10 +7,10 @@ This repository is a dynamic repository created with the intention to showcase m
 ## Table of Contents
 
 1. [Personal Profile](#personal-profile)
-2. [Key Skills](#key-skills)
-3. [Certifications](#certifications)
-4. [QA Methodologies](#qa-mindset--methodologies)
-5. [Automation Coding Project](#automation-testing-project)
+2. [Certifications](#certifications)
+3. [Key Skills](#key-skills)
+5. [QA Methodologies](#qa-mindset--methodologies)
+6. [Automation Coding Project](#automation-testing-project)
 
 
 ## Personal Profile
@@ -24,14 +24,6 @@ As an experienced, results-driven Software QA Engineer, I deliver value in the f
 - Analysing current processes and proposing recommendations for continuous process improvements.
 - Understanding the Business Objectives of a solution and advocating for the End User of the product. 
 
-
-## Key Skills
-
-<u>Core Testing Skills</u> : <br> | Test Planning & Strategy | Test Case Design | Manual Testing | Automation Testing | Defect Management | Troubleshooting
-
-<u>Agile & Dev Lifecycle</u> : <br> | Agile Methodologies | Shift-Left Testing | CI/CD Pipelines | Cross-Collaboration
-
-<u>Tools & Technologies</u> :  <br> | JIRA | Confluence | Git Version Control | Jenkins | Linux | Postman REST API | Cypress | Selenium | Java | JavaScript | SQL | Visual Studio | IntelliJ IDE 
 
 
 ## Certifications
@@ -52,6 +44,15 @@ I am also an active member of the "Ministry of Testing", "uTest" and "UX Design 
 [DCS Test Automation](./Certifications/DCS_Test_Automation_Course/Automation.pdf)
 
 [IT Specialist DataBases](https://www.credly.com/earner/earned/badge/4b27d3ed-1459-4238-91d6-683f0493f2ac)
+
+
+## Key Skills
+
+<u>Core Testing Skills</u> : <br> | Test Planning & Strategy | Test Case Design | Manual Testing | Automation Testing | Defect Management | Troubleshooting
+
+<u>Agile & Dev Lifecycle</u> : <br> | Agile Methodologies | Shift-Left Testing | CI/CD Pipelines | Cross-Collaboration
+
+<u>Tools & Technologies</u> :  <br> | JIRA | Confluence | Git Version Control | Jenkins | Linux | Postman REST API | Cypress | Selenium | Java | JavaScript | SQL | Visual Studio | IntelliJ IDE 
 
 
 
