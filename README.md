@@ -69,7 +69,7 @@ Selenium's architecture allows tests to run across multiple browsers and environ
 
 *What makes a good Bug Report?* 
 
-Jira is my Defect Management tool of choice. And although the tool automatically handles the generation of many of the fields we need to consider when writing a good bug report, we shouldn't take this for granted. It is important to understand how to write a bug report that provides meaningful information for the person reviewing it 
+Jira is my Defect Management tool of choice. And although the tool automatically handles the generation of many of the fields we need to consider when writing a good bug report, we shouldn't take this for granted. It is important to understand how to write a bug report that provides meaningful information for the person reviewing it whether that is:
 - the Developer analysing and designing the fix
 - the Project Manager who needs to track and/or understand how severely it impacts the product and the project timelines.
 - the QA team who can perform Fault-Slip Analysis on the issue to improve testing processes to potentially find similar issues earlier.
