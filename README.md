@@ -6,8 +6,8 @@ This repository is a dynamic repository created with the intention to showcase m
 
 ## Table of Contents
 
-1. [Personal Profile](#profile)
-2. [Key Skills](#skills)
+1. [Personal Profile](#personal-profile)
+2. [Key Skills](#key-skills)
 3. [Certifications](#certifications)
 4. [QA Methodologies](#qa-methodologies)
 5. [Automation Coding Project](#automation-coding-project)
