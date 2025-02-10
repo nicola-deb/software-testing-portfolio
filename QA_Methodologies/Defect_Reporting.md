@@ -1,8 +1,15 @@
 ## Defect Reporting 
 
+Defect reporting is a critical aspect of Quality Assurance (QA) because it helps ensure software quality, improve efficiency, and enhance user experience. 
+
+I uncover and troubleshoot risks and problems that matter, no matter where or when they occur in the development process, to support the team in delivering customer value. 
+
 *What makes a good Bug Report?* 
 
-Although many Defect Management Tools automatically handle the generation of many input fields, we shouldn't take this for granted. It is important to understand how to write a bug report that provides meaningful information for the person reviewing it whether that is:
+Although many Defect Management Tools automatically handle the generation of many input fields, we shouldn't take this for granted. 
+
+It is important to understand how to write a bug report that provides meaningful information for the person reviewing it whether that is:
+
 - the Developer analysing the issue and designing the fix
 - the Project Manager who needs to track and/or understand how severely it impacts the product and the project timelines.
 - the QA team who can perform Fault-Slip Analysis on the issue to improve testing processes to potentially find similar issues earlier.
