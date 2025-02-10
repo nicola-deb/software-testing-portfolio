@@ -12,7 +12,8 @@ A well-defined QA strategy helps in delivering high-quality software efficiently
 
 
 
- The 7 Principles of Testing (ISTQB) 🏆
+##The Principles of Testing
+
 The ISTQB (International Software Testing Qualifications Board) defines 7 fundamental testing principles to improve the effectiveness of software testing.
 
 1️⃣ Testing Shows the Presence of Defects, Not Their Absence
