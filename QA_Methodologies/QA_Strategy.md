@@ -1,3 +1,6 @@
+
+**QA Strategy**
+
 A QA strategy is a structured plan that outlines the processes, tools, and methodologies used to ensure software quality. It defines how testing will be conducted to meet business and technical requirements.
 
 - Testing Objectives – What the team aims to achieve (e.g., defect detection, performance validation). <br>
