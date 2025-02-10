@@ -4,7 +4,7 @@ Welcome to my GitHub repository, designed to demonstrate my skills and experienc
 
 This repository is a dynamic repository created to showcase my approach to QA methodologies, Manual Testing, Automation, CI/CD and more. 
 
-*This project is a work in progress and is actively being developed.*
+*This page is a work in progress and is continuously evolving - stay tuned for more updates!*
 
 ## Table of Contents
 
