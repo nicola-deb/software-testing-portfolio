@@ -2,7 +2,9 @@
 
 Welcome to my GitHub repository, designed to demonstrate my skills and experience as a Software Test Engineer. 
 
-This repository is a dynamic repository created with the intention to showcase my approach to QA methodologies, Automation, Version Control, CI/CD and more.
+This repository is a dynamic repository created to showcase my approach to QA methodologies, Automation, Version Control, CI/CD and more. 
+
+*This project is a work in progress and is actively being developed.*
 
 ## Table of Contents
 
