@@ -27,7 +27,7 @@ The ISTQB defines 7 fundamental testing principles to improve the effectiveness 
 3️⃣ **Early Testing Saves Time & Money**<br>
 *What It Means: Detecting defects early in the development lifecycle (Shift-Left Testing) is cheaper and prevents larger failures later.*
 
-4️⃣ **Defects Cluster Together** (Pareto Principle - 80/20 Rule)<br>
+4️⃣ **Defects Cluster Together** <br>
 *What It Means: Most defects are found in a small portion of the application (e.g., 20% of modules cause 80% of bugs). Prioritize testing in high-risk areas.*
 
 5️⃣ **Beware of the Pesticide Paradox**<br>
