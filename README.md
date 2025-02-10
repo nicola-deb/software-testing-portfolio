@@ -39,7 +39,7 @@ I am also an active member of the "Ministry of Testing", "uTest" and "UX Design 
 
 [Professional Diploma in UI/UX Design](./Certifications/UX_Design_Institute/UX_Design.pdf)
 
-[Agile Project Management](./Certifications/Agile_Project_Management/AgilePMCert2024.pdf)
+[Agile Project Management](./Certifications/Agile_Project_Management/AgilePMCert2024.png)
 
 [DCS Test Automation](./Certifications/DCS_Test_Automation_Course/Automation.pdf)
 
