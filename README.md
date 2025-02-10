@@ -77,10 +77,11 @@ JIRA | Confluence | Git Version Control | Jenkins | Linux | Postman REST API | C
 
 *User Experience Testing*
 
+*Browser Compatibility*
+
 *Web Accessibility Testing*
 
 *Security Testing*
-
 
 
 ## Automation Testing Project
