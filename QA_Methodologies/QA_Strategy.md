@@ -1,12 +1,12 @@
 A QA strategy is a structured plan that outlines the processes, tools, and methodologies used to ensure software quality. It defines how testing will be conducted to meet business and technical requirements.
 
-✅ Testing Objectives – What the team aims to achieve (e.g., defect detection, performance validation). <br>
-✅ Test Scope – What will be tested (features, integrations, performance, security). <br>
-✅ Testing Types – Functional, non-functional, automation, regression, security, etc. <br>
-✅ Test Approach – Manual vs. automated testing, risk-based testing, exploratory testing. <br>
-✅ Tools & Environments – Selecting test management tools (e.g., Jira, Selenium, Postman). <br>
-✅ Defect Management – How issues will be reported, tracked, and resolved.<br>
-✅ Test Metrics & Reporting – KPIs to measure effectiveness (e.g., defect density, test coverage).<br>
+- Testing Objectives – What the team aims to achieve (e.g., defect detection, performance validation). <br>
+- Test Scope – What will be tested (features, integrations, performance, security). <br>
+- Testing Types – Functional, non-functional, automation, regression, security, etc. <br>
+- Test Approach – Manual vs. automated testing, risk-based testing, exploratory testing. <br>
+- Tools & Environments – Selecting test management tools (e.g., Jira, Selenium, Postman). <br>
+- Defect Management – How issues will be reported, tracked, and resolved.<br>
+- Test Metrics & Reporting – KPIs to measure effectiveness (e.g., defect density, test coverage).<br>
 
 <br>
 <br>
