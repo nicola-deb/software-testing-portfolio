@@ -50,13 +50,13 @@ I am also an active member of the "Ministry of Testing", "uTest" and "UX Design 
 
 ## Key Skills
 
-<u>Core Testing Skills</u>
+<u>Core Testing Skills:</u>
 Test Planning & Strategy | Test Case Design | Manual Testing | Automation Testing | Defect Management | Troubleshooting
 
-<u>Agile & Dev Lifecycle</u> 
+<u>Agile & Dev Lifecycle:</u> 
 Agile Methodologies | Shift-Left Testing | CI/CD Pipelines | Cross-Collaboration
 
-<u>Tools & Technologies</u>
+<u>Tools & Technologies:</u>
 JIRA | Confluence | Git Version Control | Jenkins | Linux | Postman REST API | Cypress | Selenium | Java | JavaScript | SQL | Visual Studio | IntelliJ IDE 
 
 
