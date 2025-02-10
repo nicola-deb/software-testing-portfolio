@@ -8,7 +8,9 @@ A QA strategy is a structured plan that outlines the processes, tools, and metho
 ✅ Defect Management – How issues will be reported, tracked, and resolved.<br>
 ✅ Test Metrics & Reporting – KPIs to measure effectiveness (e.g., defect density, test coverage).<br>
 
-A well-defined QA strategy helps in delivering high-quality software efficiently and aligning testing efforts with business goals.
+<br>
+<br>
+<br>
 
 
 
