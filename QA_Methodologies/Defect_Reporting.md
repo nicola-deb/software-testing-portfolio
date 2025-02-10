@@ -10,14 +10,14 @@ Although many Defect Management Tools automatically handle the generation of man
 
 It is important to understand how to write a bug report that provides meaningful information for the person reviewing it whether that is:
 
-- the Developer analysing the issue and designing the fix
+- the Developer analysing the issue and designing the fix.
 - the Project Manager who needs to track and/or understand how severely it impacts the product and the project timelines.
 - the QA team who can perform Fault-Slip Analysis on the issue to improve testing processes to potentially find similar issues earlier.
 
 <br>
 <br>
 
-**_The ISTQB standard of a Bug Report includes:_** 
+**_The ISTQB description of a Bug Report includes:_** 
 
 - Unique identifier 
 - Title with a short summary of the anomaly being reported 
