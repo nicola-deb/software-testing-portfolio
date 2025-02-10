@@ -61,9 +61,9 @@ JIRA | Confluence | Git Version Control | Jenkins | Linux | Postman REST API | C
 
 ## QA Mindset & Methodologies
 
-*[QA Mindset](./QA_Methodologies/QA_mindset)*
+*[QA Mindset](./QA_Methodologies/QA_Mindset)*
 
-*QA Strategy* 
+*[QA Strategy]*(./QA_Methodologies/QA_Strategy)*
 
 *[What makes a good Bug Report?](./QA_Methodologies/Defect_Reporting)*
 
