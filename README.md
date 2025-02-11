@@ -12,7 +12,8 @@ This repository is a dynamic repository created to showcase my approach to QA me
 2. [Certifications](#certifications)
 3. [Key Skills](#key-skills)
 5. [QA Mindset & Methodologies](#qa-mindset--methodologies)
-6. [Automation Coding Project](#automation-testing-project)
+6. [Automation Coding Project](#ui-automation-testing-project)
+7. [REST API Project](#rest-api-project)
 
 
 ## Personal Profile
@@ -86,7 +87,7 @@ JIRA | Confluence | TMS | Git Version Control | Jenkins | Linux | Postman REST A
 *Security Testing*
 
 
-## Automation Testing Project
+## UI Automation Testing Project
 
 This is a practical project where I use automation to test login, withdrawal and deposit features of a Banking Web Application.
  
@@ -94,3 +95,11 @@ Within the [cypress-script](https://github.com/nicola-deb/software-testing-portf
 
 Within the [selenium-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/selenium-script) folder, you will find a test script that uses the Selenium test automation tool, based on Java in this instance. 
 Selenium's architecture allows tests to run across multiple browsers and environments by communicating with web drivers, enabling greater flexibility and compatibility for test automation.
+
+
+## REST API Project
+
+This is a practical project where I use Visual Studio IDE, Javascript, Postman and Jmeter to set up and test a simple REST API locally:
+
+- Postman REST API Testing Tool tests the POST, GET, PUT and DELETE http requests to manage a collection of users, and
+- JMeter Performance Testing Tool tests the simulation of multiple concurrent users creating accounts at the same time. 
