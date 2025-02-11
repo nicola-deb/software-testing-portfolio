@@ -1,3 +1,6 @@
+## QA Mindset
+
+
 Quality Assurance isn’t just a set of tools or processes - it’s a mindset that's required for quality assurance to be upheld throughout the Software Development Lifecycle.
 
 I believe a good quality culture and mindset involves the following:
