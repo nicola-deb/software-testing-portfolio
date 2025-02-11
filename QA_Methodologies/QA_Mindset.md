@@ -3,7 +3,7 @@ Quality Assurance isn’t just a set of tools or processes - it’s a mindset th
 I believe a good quality culture and mindset involves the following:
 
 **Automation + Human Expertise**\
-Automation testing is a powerful tool, but it doesn’t replace human creativity and intuition. A complementary approach balances automated testing for speed and efficiency with manual exploratory testing to catch unexpected issues.
+Automation testing is a powerful tool, but it doesn’t replace human creativity and intuition. A complementary approach balances automated testing for speed, coverage and efficiency with manual exploratory testing to catch usability and unanticipated issues.
 
 **Continuous Feedback and Learning**\
 Rather than focusing on who made a mistake, a blameless and learning-focused culture encourages open feedback, leading to improvements across the board. Developers and testers complement each other’s skills to refine processes.
