@@ -58,7 +58,7 @@ Test Planning & Strategy | Test Case Design | Manual Testing | Automation Testin
 Agile Methodologies | Shift-Left Testing | CI/CD Pipelines | Cross-Collaboration
 
 **<u>Tools & Technologies:</u>**
-JIRA | Confluence | TMS | Git Version Control | Jenkins | Linux | Postman REST API | Cypress | Selenium | Java | JavaScript | SQL | Visual Studio | IntelliJ IDE 
+JIRA | Confluence | TMS | Gerrit Code Review | Git Version Control | Jenkins | Linux | Postman REST API | Cypress | Selenium | Java | JavaScript | SQL | Visual Studio | IntelliJ IDE 
 
 
 
