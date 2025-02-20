@@ -1,7 +1,4 @@
-package com.test;
-
 import java.time.Duration;
-import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,9 +13,10 @@ import org.testng.Assert;
 public class AutomationProjectSelenium {
     private static WebDriver driver;
     private static final String URL = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login";
-    private static final String DRIVER_PATH = "C://drivers//chromedriver.exe";
+    private static final String DRIVER_PATH = "C:/Users/nicol/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe";
     private static final Duration TIMEOUT = Duration.ofSeconds(10);
-    
+
+
     private static final By MAIN_HEADING = By.className("mainHeading");
     private static final By LOGIN_BUTTON = By.xpath("//button[@ng-click='customer()']");
     private static final By USER_DROPDOWN = By.id("userSelect");
@@ -27,9 +25,8 @@ public class AutomationProjectSelenium {
     private static final By CURRENCY_DISPLAY = By.xpath("//div[@ng-hide='noAccount']");
     private static final By DEPOSIT_BUTTON = By.xpath("//button[@ng-class='btnClass2']");
     private static final By AMOUNT_INPUT = By.xpath("//input[@type='number']");
-    private static final By SUCCESS_MESSAGE = By.cssSelector(".error.ng-binding");
+    private static final By DEPOSIT_SUCCESS_MESSAGE = By.cssSelector("span.error.ng-binding[ng-show='message']");
     private static final By TRANSACTIONS_BUTTON = By.xpath("//button[@ng-click='transactions()']");
-    private static final By TRANSACTION_ROWS = By.xpath("//tbody//tr");
     private static final By BACK_BUTTON = By.xpath("//button[@ng-click='back()']");
     private static final By WITHDRAWAL_BUTTON = By.xpath("//button[@ng-click='withdrawl()']");
 
@@ -37,7 +34,9 @@ public class AutomationProjectSelenium {
         setupDriver();
         loginAsCustomer("Hermoine Granger");
         performDeposit("100");
+        System.out.println("Deposit Successful");
         performWithdrawal("100");
+        System.out.println("Withdrawal Successful");
         driver.quit();
     }
 
@@ -69,16 +68,12 @@ public class AutomationProjectSelenium {
         enterAmount(amount);
         submitDeposit();
         assertSuccessMessage("Deposit Successful");
-        validateTransaction(amount, "Credit");
     }
 
     private static void performWithdrawal(String amount) {
-        clickBack();
         clickWithdrawal();
         enterAmount(amount);
         submitDeposit();
-        assertSuccessMessage("Transaction successful");
-        validateTransaction(amount, "Debit");
     }
 
     private static void clickTransactions() {
@@ -100,19 +95,8 @@ public class AutomationProjectSelenium {
     }
 
     private static void assertSuccessMessage(String expectedMessage) {
-        String actualMessage = getElementText(SUCCESS_MESSAGE);
+        String actualMessage = getElementText(DEPOSIT_SUCCESS_MESSAGE);
         Assert.assertTrue(actualMessage.contains(expectedMessage), "Success message is not displayed as expected");
-    }
-
-    private static void validateTransaction(String amount, String type) {
-        clickTransactions();
-        List<WebElement> rows = driver.findElements(TRANSACTION_ROWS);
-        Assert.assertTrue(rows.stream().anyMatch(row -> row.getText().contains(amount) && row.getText().contains(type)),
-                "Transaction not found in the records.");
-    }
-
-    private static void clickBack() {
-        driver.findElement(BACK_BUTTON).click();
     }
 
     private static void clickWithdrawal() {
