@@ -55,10 +55,10 @@ I am also an active member of the "Ministry of Testing", "uTest" and "UX Design 
 Test Planning & Strategy | Test Case Design | Manual Testing | Automation Testing | Defect Management | Troubleshooting
 
 **<u>Agile & Dev Lifecycle:</u>**
-Agile Methodologies | Shift-Left Testing | CI/CD Pipelines | Cross-Collaboration
+Agile Methodologies | Shift-Left Testing | CI/CD Pipelines | Cross-Collaboration | QA Best Practices 
 
 **<u>Tools & Technologies:</u>**
-JIRA | Confluence | TMS | Gerrit Code Review | Git Version Control | Jenkins | Linux | Postman REST API | Cypress | Selenium | Java | JavaScript | SQL | Visual Studio | IntelliJ IDE 
+JIRA | Confluence | Test Management Systems | Gerrit Code Review | Git Version Control | Jenkins | Linux | Postman REST API | Cypress | Selenium | Java | JavaScript | Visual Studio | IntelliJ IDE 
 
 
 
