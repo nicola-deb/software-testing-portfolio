@@ -70,31 +70,15 @@ JIRA | Confluence | TMS | Gerrit Code Review | Git Version Control | Jenkins | L
 
 *[What makes a good Bug Report?](./QA_Methodologies/Defect_Reporting)*
 
-*Functional Testing*
-
-*Non-Functional Testing*
-
-*Manual Exploratory Testing*
-
-*Performance Testing*
-
-*User Experience Testing*
-
-*Browser Compatibility*
-
-*Web Accessibility Testing*
-
-*Security Testing*
 
 
 ## UI Automation Testing Project
 
 This is a practical project where I use automation to test login, withdrawal and deposit features of a Banking Web Application.
  
-Within the [cypress-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/cypress-script) folder, you will find a test script that uses the Cypress front-end testing tool, based on JavaScript. Cypress' architecture allows tests to run directly inside the browser, which enables a faster execution of test results.
+Within the [cypress-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/cypress-script) folder, you will find a test script that uses the Cypress front-end testing tool, based on JavaScript. 
 
 Within the [selenium-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/selenium-script) folder, you will find a test script that uses the Selenium test automation tool, based on Java in this instance. 
-Selenium's architecture allows tests to run across multiple browsers and environments by communicating with web drivers, enabling greater flexibility and compatibility for test automation.
 
 
 ## REST API Project
