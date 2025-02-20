@@ -70,6 +70,8 @@ JIRA | Confluence | Test Management Systems | Gerrit Code Review | Git Version C
 
 *[What makes a good Bug Report?](./QA_Methodologies/Defect_Reporting)*
 
+*More to be added soon!*
+
 
 
 ## UI Automation Testing Project
