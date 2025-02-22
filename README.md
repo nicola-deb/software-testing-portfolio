@@ -80,7 +80,7 @@ This is a practical project where I use automation to test login, withdrawal and
  
 Within the [cypress-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/cypress-script) folder, you will find a test script that uses the Cypress front-end testing tool, based on JavaScript. 
 
-Within the [selenium-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/selenium-script) folder, you will find a test script that uses the Selenium test automation tool, based on Java in this instance. 
+Within the [selenium-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/selenium-script) folder, you will find a test script that uses the Selenium test automation tool, based on Java. 
 
 
 ## RESTful Web Application Project 
