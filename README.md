@@ -11,9 +11,10 @@ This repository is a dynamic repository created to showcase my approach to QA me
 1. [Personal Profile](#personal-profile)
 2. [Certifications](#certifications)
 3. [Key Skills](#key-skills)
-5. [QA Mindset & Methodologies](#qa-mindset--methodologies)
-6. [Automation Coding Project](#ui-automation-testing-project)
-7. [REST API Project](#rest-api-project)
+4. [QA Mindset & Methodologies](#qa-mindset--methodologies)
+5. [Automation Coding Project](#ui-automation-testing-project)
+6. [REST API Project](#rest-api-project)
+7. [Web Application Project](#web-application-project)
 
 
 ## Personal Profile
@@ -76,7 +77,7 @@ JIRA | Confluence | Test Management Systems | Gerrit Code Review | Git Version C
 
 ## UI Automation Testing Project
 
-This is a practical project where I use automation to test login, withdrawal and deposit features of a Banking Web Application.
+This is a practical project where I use automation to test login, withdrawal and deposit features of a Banking Web Application as part of a Web Application Course with Dublin Coding School, 2024. 
  
 Within the [cypress-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/cypress-script) folder, you will find a test script that uses the Cypress front-end testing tool, based on JavaScript. 
 
@@ -85,7 +86,40 @@ Within the [selenium-script](https://github.com/nicola-deb/software-testing-port
 
 ## REST API Project
 
-This is a practical project where I use Visual Studio IDE, Javascript, Postman and Jmeter to set up and test a simple REST API locally:
+This is a project where I use Visual Studio IDE, Javascript, Postman and Jmeter to set up and test a simple REST API locally:
 
 - Postman REST API Testing Tool tests the POST, GET, PUT and DELETE http requests to manage a collection of users, and
-- JMeter Performance Testing Tool tests the simulation of multiple concurrent users creating accounts at the same time. 
+- JMeter Performance Testing Tool tests the simulation of multiple concurrent users creating accounts at the same time.
+
+## Web Application Project 
+
+**Project Overview: User Account Management System**
+
+The User Account Management System is a web application designed to facilitate the management of user accounts and showcase my competence using various programming languages, technologies and test tools. <br>
+
+**Key Features** <br>
+- User Management: Functions to view, create, update, and delete user accounts via a RESTful API.<br>
+- Backend Integration: Node.js handles server-side logic and communicates with the SQLite database.<br>
+- Database Management: SQLite provides a lightweight and efficient storage solution for user data.<br>
+- Batch Operations: Python scripts enable batch addition, updating, or deletion of multiple users, streamlining user 
+  management tasks.
+
+**Technologies Used**
+<br>
+<br>
+- **Frontend:** HTML, CSS, JavaScript<br>
+- **Backend:** Node.js<br>
+- **Database:** SQLite<br>
+- **REST API:** Facilitates operations for adding, updating, viewing, and deleting users.<br>
+- **Scripting:** Python for batch user operations.<br>
+<br>
+**Testing**
+<br>
+<br>
+- **Postman API Testing:** Ensured the REST API endpoints function as intended for CRUD operations.<br>
+- **Python Scripting:** Add/Delete users in batch for quick set-up of environment & performance testing.<br>
+- **Cypress & Javascript in Chrome:** To verify the functionality of the UI components & interactions.<br>
+- **Selenium & Java in Mozilla:** <TBA><br>
+- **Playright & Python:** <TBA><br>
+
+
