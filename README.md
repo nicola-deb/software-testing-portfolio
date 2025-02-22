@@ -13,8 +13,7 @@ This repository is a dynamic repository created to showcase my approach to QA me
 3. [Key Skills](#key-skills)
 4. [QA Mindset & Methodologies](#qa-mindset--methodologies)
 5. [Automation Coding Project](#ui-automation-testing-project)
-6. [REST API Project](#rest-api-project)
-7. [Web Application Project](#web-application-project)
+6. [Web Application Project](#web-application-project)
 
 
 ## Personal Profile
@@ -91,35 +90,34 @@ This is a project where I use Visual Studio IDE, Javascript, Postman and Jmeter 
 - Postman REST API Testing Tool tests the POST, GET, PUT and DELETE http requests to manage a collection of users, and
 - JMeter Performance Testing Tool tests the simulation of multiple concurrent users creating accounts at the same time.
 
-## Web Application Project 
+## RESTful Web Application Project 
 
 **Project Overview: User Account Management System**
 
 The User Account Management System is a web application designed to facilitate the management of user accounts and showcase my competence using various programming languages, technologies and test tools. <br>
 
 **Key Features** <br>
-- User Management: Functions to view, create, update, and delete user accounts via a RESTful API.<br>
-- Backend Integration: Node.js handles server-side logic and communicates with the SQLite database.<br>
-- Database Management: SQLite provides a lightweight and efficient storage solution for user data.<br>
-- Batch Operations: Python scripts enable batch addition, updating, or deletion of multiple users, streamlining user 
+- **User Management:** Functions to view, create, update, and delete user accounts via a RESTful API.<br>
+- **Backend Integration:** Node.js handles server-side logic and communicates with the SQLite database.<br>
+- **Database Management:** SQLite provides a lightweight and efficient storage solution for user data.<br>
+- **Batch Operations:** Python scripts enable batch addition, updating, or deletion of multiple users, streamlining user 
   management tasks.
 
 **Technologies Used**
-<br>
 <br>
 - **Frontend:** HTML, CSS, JavaScript<br>
 - **Backend:** Node.js<br>
 - **Database:** SQLite<br>
 - **REST API:** Facilitates operations for adding, updating, viewing, and deleting users.<br>
-- **Scripting:** Python for batch user operations.<br>
-<br>
+- **Scripting:** Python for batch user operations.
+
 **Testing**
 <br>
-<br>
-- **Postman API Testing:** Ensured the REST API endpoints function as intended for CRUD operations.<br>
+- **Postman API Testing Tool:** Ensured the REST API endpoints function as intended for the POST, GET, PUT and DELETE requests.<br>
 - **Python Scripting:** Add/Delete users in batch for quick set-up of environment & performance testing.<br>
 - **Cypress & Javascript in Chrome:** To verify the functionality of the UI components & interactions.<br>
-- **Selenium & Java in Mozilla:** <TBA><br>
-- **Playright & Python:** <TBA><br>
+- **Selenium & Java in Mozilla:** To be Added <br>
+- **Playright & Python:** To be Added <br>
+- **JMeter Performance Testing Tool:** To be Added <br>
 
 
