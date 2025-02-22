@@ -11,9 +11,9 @@ This repository is a dynamic repository created to showcase my approach to QA me
 1. [Personal Profile](#personal-profile)
 2. [Certifications](#certifications)
 3. [Key Skills](#key-skills)
-5. [QA Mindset & Methodologies](#qa-mindset--methodologies)
-6. [Automation Coding Project](#ui-automation-testing-project)
-7. [REST API Project](#rest-api-project)
+4. [QA Mindset & Methodologies](#qa-mindset--methodologies)
+5. [UI Test Automation Coding Project](#ui-automation-testing-project)
+6. [Web Application Project](#restful-web-application-project)
 
 
 ## Personal Profile
@@ -55,10 +55,10 @@ I am also an active member of the "Ministry of Testing", "uTest" and "UX Design 
 Test Planning & Strategy | Test Case Design | Manual Testing | Automation Testing | Defect Management | Troubleshooting
 
 **<u>Agile & Dev Lifecycle:</u>**
-Agile Methodologies | Shift-Left Testing | CI/CD Pipelines | Cross-Collaboration
+Agile Methodologies | Shift-Left Testing | CI/CD Pipelines | Cross-Collaboration | QA Best Practices 
 
 **<u>Tools & Technologies:</u>**
-JIRA | Confluence | TMS | Git Version Control | Jenkins | Linux | Postman REST API | Cypress | Selenium | Java | JavaScript | SQL | Visual Studio | IntelliJ IDE 
+JIRA | Confluence | Test Management Systems | Gerrit Code Review | Git Version Control | Jenkins | Linux | Postman REST API | Cypress | Selenium | Java | JavaScript | Visual Studio | IntelliJ IDE 
 
 
 
@@ -70,36 +70,48 @@ JIRA | Confluence | TMS | Git Version Control | Jenkins | Linux | Postman REST A
 
 *[What makes a good Bug Report?](./QA_Methodologies/Defect_Reporting)*
 
-*Functional Testing*
+*More to be added soon!*
 
-*Non-Functional Testing*
-
-*Manual Exploratory Testing*
-
-*Performance Testing*
-
-*User Experience Testing*
-
-*Browser Compatibility*
-
-*Web Accessibility Testing*
-
-*Security Testing*
 
 
 ## UI Automation Testing Project
 
-This is a practical project where I use automation to test login, withdrawal and deposit features of a Banking Web Application.
+This is a practical project where I use automation to test login, withdrawal and deposit features of a Banking Web Application as part of a Test Automatinon Course with Dublin Coding School, 2024. 
  
-Within the [cypress-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/cypress-script) folder, you will find a test script that uses the Cypress front-end testing tool, based on JavaScript. Cypress' architecture allows tests to run directly inside the browser, which enables a faster execution of test results.
+Within the [cypress-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/cypress-script) folder, you will find a test script that uses the Cypress front-end testing tool, based on JavaScript. 
 
-Within the [selenium-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/selenium-script) folder, you will find a test script that uses the Selenium test automation tool, based on Java in this instance. 
-Selenium's architecture allows tests to run across multiple browsers and environments by communicating with web drivers, enabling greater flexibility and compatibility for test automation.
+Within the [selenium-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/selenium-script) folder, you will find a test script that uses the Selenium test automation tool, based on Java. 
 
 
-## REST API Project
+## RESTful Web Application Project 
 
-This is a practical project where I use Visual Studio IDE, Javascript, Postman and Jmeter to set up and test a simple REST API locally:
+**Project Overview: User Account Management System**
 
-- Postman REST API Testing Tool tests the POST, GET, PUT and DELETE http requests to manage a collection of users, and
-- JMeter Performance Testing Tool tests the simulation of multiple concurrent users creating accounts at the same time. 
+The User Account Management System is a web application designed to facilitate the management of user accounts using various programming languages, technologies and test tools. <br>
+
+**Key Features** <br>
+- **User Management:** Functions to view, create, update, and delete user accounts via a RESTful API.<br>
+- **Backend Integration:** Node.js handles server-side logic and communicates with the SQLite database.<br>
+- **Database Management:** SQLite provides a lightweight and efficient storage solution for user data.<br>
+- **Batch Operations:** Python scripts enable batch addition, updating, or deletion of multiple users, streamlining user 
+  management tasks.
+
+**Technologies Used**
+<br>
+- **Frontend:** HTML, CSS, JavaScript<br>
+- **Backend:** Node.js<br>
+- **Database:** SQLite<br>
+- **REST API:** Endpoints for adding, updating, viewing, and deleting users.<br>
+- **Scripting:** Python for batch user operations.
+- **Git:** Version Control
+
+**Testing**
+<br>
+- **Postman API Testing Tool:** Ensured the REST API endpoints function as intended for the POST, GET, PUT and DELETE requests.<br>
+- **Python Scripting:** Add/Delete users in batch for quick set-up of environment & performance testing.<br>
+- **Cypress & Javascript in Chrome:** To verify the functionality of the UI components & interactions.<br>
+- **Selenium & Java in Mozilla:** To be Added <br>
+- **Playright & Python:** To be Added <br>
+- **JMeter Performance Testing Tool:** To be Added <br>
+
+

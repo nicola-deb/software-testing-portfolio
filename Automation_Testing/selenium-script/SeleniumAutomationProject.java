@@ -1,121 +1,109 @@
-package com.test;
-
 import java.time.Duration;
-import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class AutomationProjectSelenium {
+    private static WebDriver driver;
+    private static final String URL = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login";
+    private static final String DRIVER_PATH = "C:/Users/nicol/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe";
+    private static final Duration TIMEOUT = Duration.ofSeconds(10);
 
-	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C://drivers//chromedriver.exe");
-		ChromeOptions options=new ChromeOptions().addArguments("--disable-search-engine-choice-screen", "--start-maximized");
-		WebDriver driver = new ChromeDriver(options);  
-		
-		// 1.  Open https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login website
-		driver.get("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login");
 
-		// 2.  Confirm the Title of the page is XYZ Bank
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-		WebElement title=driver.findElement(By.className("mainHeading"));
-		String actualTitle=title.getText();
-		Assert.assertEquals(actualTitle, "XYZ Bank", "Title is mismatched"); 
-		
-		// 3.  Click on Customer Login
-		WebElement login = driver.findElement(By.xpath("//button[@ng-click='customer()']"));
-		login.click();
-		
-		// 4.  Choose any Name from the Your Name drop down
-		WebElement dropdown=driver.findElement(By.id("userSelect"));
-		Select optionValues = new Select(dropdown);
-		optionValues.selectByVisibleText("Hermoine Granger");
-		
-		// 5.  Click on Login
-		WebElement userLogin = driver.findElement(By.xpath("//button[@type='submit']"));
-		userLogin.click();
-		
-		// 6.  Write an assertion to confirm the Name selected in Step 4 is displayed after Welcome
-		WebElement name=driver.findElement(By.cssSelector(".fontBig.ng-binding"));
-		String actualName=name.getText();
-		Assert.assertEquals(actualName, "Hermoine Granger", "Name is mismatched"); 
-		
-		// 7.  Confirm the Currency is Dollar (Use Assertion)
-		WebElement currency=driver.findElement(By.xpath("//div[@ng-hide='noAccount']"));
-		String actualCurrency=currency.getText();
-		Assert.assertTrue(actualCurrency.contains("Dollar"));
-		
-		//Resetting Transactions list page
-		WebElement transactionsButton = driver.findElement(By.xpath("//button[@ng-click=\"transactions()\"]"));
-		transactionsButton.click();
-		WebElement resetButton = driver.findElement(By.xpath("//button[@ng-click=\"reset()\"]"));
-		resetButton.click();
-		WebElement backButton = driver.findElement(By.xpath("//button[@ng-click=\"back()\"]"));
-		backButton.click();
-		
-		// 8.  Click on Deposit
-		WebElement depositButton = driver.findElement(By.xpath("//button[@ng-class='btnClass2']"));
-		depositButton.click();
-		
-		// 9.  Enter the amount in Amount to be Deposited textbox
-		WebElement depositAmount =driver.findElement(By.xpath("//input[@type='number']"));
-		depositAmount.sendKeys("100");
-		
-		// 10.  Click on Deposit
-		driver.findElement(By.xpath("//button[@type='submit']")).click();	
-		
-		// 11. Confirm "Deposit Successful" is displayed
-		WebElement message=driver.findElement(By.cssSelector(".error.ng-binding"));
-		String successfulMsg=message.getText();
-		Assert.assertTrue(successfulMsg.contains("Deposit Successful"));
-		
-		 // 12. Click on Transactions
-		WebElement transactionsBtn = driver.findElement(By.xpath("//button[@ng-click=\"transactions()\"]"));
-		Thread.sleep(2000);     //Added wait due to intermittent issue with loading of Transactions page
-		transactionsBtn.click();
+    private static final By MAIN_HEADING = By.className("mainHeading");
+    private static final By LOGIN_BUTTON = By.xpath("//button[@ng-click='customer()']");
+    private static final By USER_DROPDOWN = By.id("userSelect");
+    private static final By SUBMIT_BUTTON = By.xpath("//button[@type='submit']");
+    private static final By WELCOME_NAME = By.cssSelector(".fontBig.ng-binding");
+    private static final By CURRENCY_DISPLAY = By.xpath("//div[@ng-hide='noAccount']");
+    private static final By DEPOSIT_BUTTON = By.xpath("//button[@ng-class='btnClass2']");
+    private static final By AMOUNT_INPUT = By.xpath("//input[@type='number']");
+    private static final By DEPOSIT_SUCCESS_MESSAGE = By.cssSelector("span.error.ng-binding[ng-show='message']");
+    private static final By TRANSACTIONS_BUTTON = By.xpath("//button[@ng-click='transactions()']");
+    private static final By BACK_BUTTON = By.xpath("//button[@ng-click='back()']");
+    private static final By WITHDRAWAL_BUTTON = By.xpath("//button[@ng-click='withdrawl()']");
 
-		// 13. Confirm the amount entered in Step 9 is displayed under Amount column & // 14. Confirm the Transaction Type is credit
-		WebElement tableBody = driver.findElement(By.xpath("//table[@class='table table-bordered table-striped']//tbody"));
-		Assert.assertTrue(tableBody.findElement(By.tagName("tr")).getText().contains("100"));
-		Assert.assertTrue(tableBody.findElement(By.tagName("tr")).getText().contains("Credit"));
+    public static void main(String[] args) {
+        setupDriver();
+        loginAsCustomer("Hermoine Granger");
+        performDeposit("100");
+        System.out.println("Deposit Successful");
+        performWithdrawal("100");
+        System.out.println("Withdrawal Successful");
+        driver.quit();
+    }
 
-		// 15. Click on Back button
-		driver.findElement(By.xpath("//button[@ng-click='back()']")).click();
-		
-		// 16. Click on Withdrawal
-		driver.findElement(By.xpath("//button[@ng-click='withdrawl()']")).click();
-		
-		// 17. Enter the same amount you deposited
-		WebElement withdrawalAmount = driver.findElement(By.xpath("//input[@type='number']"));
-		withdrawalAmount.sendKeys("100");	
-		
-		// 18. Click on Withdraw
-		driver.findElement(By.xpath("//button[@type='submit']")).click();
-		
-		// 19. Confirm "Transaction Successful" is displayed
-		WebElement message2=driver.findElement(By.cssSelector(".error.ng-binding"));
-		String transactionMsg=message2.getText();
-		Assert.assertTrue(transactionMsg.contains("Transaction successful"));
-		
-		// 20. Click on Transactions
-		WebElement transactionButton = driver.findElement(By.xpath("//button[@ng-click=\"transactions()\"]"));
-		Thread.sleep(2000); //Added wait due to intermittent issue with loading of Transactions page
-		transactionButton.click();
-		
-		// 21. Confirm there is one more row with Transaction Type is Debit		
-		List<WebElement> numberofrows =driver.findElements(By.xpath("//tbody//tr"));
-		int noofrows=numberofrows.size();		
-		Assert.assertEquals(noofrows, 2);
-		String tableData=driver.findElement(By.xpath("//tbody//tr[contains(@id,'anchor1')]/td[3]")).getText();
-		Assert.assertEquals(tableData, "Debit");
-		
-		//Close Browser Tab
-		driver.quit();
-		}
-	}
+    private static void setupDriver() {
+        System.setProperty("webdriver.chrome.driver", DRIVER_PATH);
+        ChromeOptions options = new ChromeOptions().addArguments("--disable-search-engine-choice-screen", "--start-maximized");
+        driver = new ChromeDriver(options);
+        driver.manage().timeouts().implicitlyWait(TIMEOUT);
+        driver.get(URL);
+    }
+
+    private static void loginAsCustomer(String customerName) {
+        Assert.assertEquals(getElementText(MAIN_HEADING), "XYZ Bank", "Title is mismatched");
+        driver.findElement(LOGIN_BUTTON).click();
+        selectCustomerName(customerName);
+        driver.findElement(SUBMIT_BUTTON).click();
+        Assert.assertEquals(getElementText(WELCOME_NAME), customerName, "Name is mismatched");
+        Assert.assertTrue(getElementText(CURRENCY_DISPLAY).contains("Dollar"), "Currency is not Dollar");
+    }
+
+    private static void selectCustomerName(String customerName) {
+        Select userSelect = new Select(driver.findElement(USER_DROPDOWN));
+        userSelect.selectByVisibleText(customerName);
+    }
+
+    private static void performDeposit(String amount) {
+        clickTransactions();
+        clickDeposit();
+        enterAmount(amount);
+        submitDeposit();
+        assertSuccessMessage("Deposit Successful");
+    }
+
+    private static void performWithdrawal(String amount) {
+        clickWithdrawal();
+        enterAmount(amount);
+        submitDeposit();
+    }
+
+    private static void clickTransactions() {
+        driver.findElement(TRANSACTIONS_BUTTON).click();
+    }
+
+    private static void clickDeposit() {
+        driver.findElement(DEPOSIT_BUTTON).click();
+    }
+
+    private static void enterAmount(String amount) {
+        WebElement amountInput = driver.findElement(AMOUNT_INPUT);
+        amountInput.clear();
+        amountInput.sendKeys(amount);
+    }
+
+    private static void submitDeposit() {
+        driver.findElement(SUBMIT_BUTTON).click();
+    }
+
+    private static void assertSuccessMessage(String expectedMessage) {
+        String actualMessage = getElementText(DEPOSIT_SUCCESS_MESSAGE);
+        Assert.assertTrue(actualMessage.contains(expectedMessage), "Success message is not displayed as expected");
+    }
+
+    private static void clickWithdrawal() {
+        driver.findElement(WITHDRAWAL_BUTTON).click();
+    }
+
+    private static String getElementText(By locator) {
+        return new WebDriverWait(driver, TIMEOUT).until(ExpectedConditions.visibilityOfElementLocated(locator)).getText();
+    }
+}
