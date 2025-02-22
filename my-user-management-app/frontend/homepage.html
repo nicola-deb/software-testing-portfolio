@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Homepage</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h1 class="homepage-title">User Account Management</h1>
+		<button class="logout-button" aria-label="Logout">Logout</button>
+		<div id="buttonContainer">
+			<div>
+				<button class="view-users-button" id="viewUsersButton" aria-label="View Users">View Users</button>
+				<button class="create-user-button" id="createUserButton" aria-label="Create User">Create User</button>
+			</div>
+			<div id="actionButtons">
+				<button class="update-user-button" id="updateUserButton" aria-label="Update User">Update User</button>
+				<button class="delete-user-button"id="deleteUserButton" aria-label="Delete User">Delete User</button>
+			</div>
+		</div>
+		<table class="user-table" id="userTable">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Username</th>
+					<th>Password</th> <!-- Consider removing this for security -->
+				</tr>
+			</thead>
+			<tbody>
+				<!-- Rows will be populated dynamically -->
+			</tbody>
+		</table>
+
+		<script src="script.js"></script>
+	</body>
+</html>
