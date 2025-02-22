@@ -1,8 +1,6 @@
-# Nicola's GitHub QA Portfolio
-
 Welcome to my GitHub repository, designed to demonstrate my skills and experience as a Software Test Engineer. 
 
-This repository is a dynamic repository created to showcase my approach to QA methodologies, Manual Testing, Automation, CI/CD and more. 
+This repository is a dynamic repository created to showcase my approach to QA methodologies, Manual Testing, Test Automation, CI/CD and more. 
 
 *This page is a work in progress and is continuously evolving - stay tuned for more updates!*
 
