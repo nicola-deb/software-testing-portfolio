@@ -103,6 +103,7 @@ The User Account Management System is a web application designed to facilitate t
 - **Database:** SQLite<br>
 - **REST API:** Endpoints for adding, updating, viewing, and deleting users.<br>
 - **Scripting:** Python for batch user operations.
+- **Git:** Version Control
 
 **Testing**
 <br>
