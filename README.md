@@ -101,7 +101,7 @@ The User Account Management System is a web application designed to facilitate t
 - **Frontend:** HTML, CSS, JavaScript<br>
 - **Backend:** Node.js<br>
 - **Database:** SQLite<br>
-- **REST API:** Facilitates operations for adding, updating, viewing, and deleting users.<br>
+- **REST API:** Endpoints for adding, updating, viewing, and deleting users.<br>
 - **Scripting:** Python for batch user operations.
 
 **Testing**
