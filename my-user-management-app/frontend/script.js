@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	if (viewUsersButton) {
 		viewUsersButton.addEventListener('click', fetchUserData);
 	}
+	fetchUserData();
 });
 
 // Function to handle login
@@ -85,12 +86,11 @@ function populateTable(users) {
 
 			const idCell = row.insertCell(0);
 			const usernameCell = row.insertCell(1);
-			const passwordCell = row.insertCell(2);
+			const roleCell = row.insertCell(2);
 
 			idCell.textContent = user.id; // Assuming user object has an id property
 			usernameCell.textContent = user.username; // Assuming user object has a username property
-			passwordCell.textContent = user.password; // Assuming user object has a password property (use cautiously)
-
+                        roleCell.textContent=user.role;
 			// Add click event to the row for selection
 			row.addEventListener('click', () => {
 				// Remove 'selected' class from all rows
@@ -129,8 +129,40 @@ function updateUser(userId) {
     // Implement logic to show update form or send request to update the user
 }
 
+
 function deleteUser(userId) {
-    console.log(`Delete user with ID: ${userId}`);
-    // Implement logic to confirm and delete the user
+    // Prompt for confirmation before deletion
+    const confirmation = confirm('Are you sure you want to delete this user?');
+    if (!confirmation) {
+        return; // Exit if the user cancels
+    }
+
+    // Get the username and password of the admin from a form or storage
+    const adminUsername = prompt("Enter Admin Username:");
+    const adminPassword = prompt("Enter Admin Password:");
+
+    // Make a DELETE request to the API endpoint
+    fetch(`http://localhost:3000/api/users/${userId}`, {
+        method: 'DELETE',
+        headers: {
+            'Content-Type': 'application/json',
+            // Include credentials if required for authentication
+            'Authorization': 'Basic ' + btoa(`${adminUsername}:${adminPassword}`)
+        }
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to delete user: ' + response.statusText);
+        }
+        return response.json();
+    })
+    .then(data => {
+        alert(data.message); // Display success message
+        fetchUserData(); // Refresh the user list
+    })
+    .catch(error => {
+        console.error('Error deleting user:', error);
+        alert(error.message); // Display error message
+    });
 }
 
