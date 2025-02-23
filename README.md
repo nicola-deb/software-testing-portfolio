@@ -10,8 +10,9 @@ This repository is a dynamic repository created to showcase my approach to QA me
 2. [Certifications](#certifications)
 3. [Key Skills](#key-skills)
 4. [QA Mindset & Methodologies](#qa-mindset--methodologies)
-5. [UI Test Automation Coding Project](#ui-automation-testing-project)
-6. [Web Application Project](#restful-web-application-project)
+5. [Web Application Project](#restful-web-application-project)
+6. [UI Test Automation Coding Project](#ui-automation-testing-project)
+
 
 
 ## Personal Profile
@@ -72,15 +73,6 @@ JIRA | Confluence | Test Management Systems | Gerrit Code Review | Git Version C
 
 
 
-## UI Automation Testing Project
-
-This is a practical project where I use automation to test login, withdrawal and deposit features of a Banking Web Application as part of a Test Automatinon Course with Dublin Coding School, 2024. 
- 
-Within the [cypress-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/cypress-script) folder, you will find a test script that uses the Cypress front-end testing tool, based on JavaScript. 
-
-Within the [selenium-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/selenium-script) folder, you will find a test script that uses the Selenium test automation tool, based on Java. 
-
-
 ## RESTful Web Application Project 
 
 **Project Overview: User Account Management System**
@@ -111,5 +103,15 @@ The [User Account Management System](https://github.com/nicola-deb/software-test
 - **Selenium & Java in Mozilla:** To be Added <br>
 - **Playright & Python:** To be Added <br>
 - **JMeter Performance Testing Tool:** To be Added <br>
+
+
+
+## UI Automation Testing Project
+
+This is a practical project where I use automation to test login, withdrawal and deposit features of a Banking Web Application as part of a Test Automatinon Course with Dublin Coding School, 2024. 
+ 
+Within the [cypress-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/cypress-script) folder, you will find a test script that uses the Cypress front-end testing tool, based on JavaScript. 
+
+Within the [selenium-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/selenium-script) folder, you will find a test script that uses the Selenium test automation tool, based on Java. 
 
 
