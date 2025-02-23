@@ -16,7 +16,8 @@ try:
         sql = '''CREATE TABLE IF NOT EXISTS users (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     username TEXT NOT NULL UNIQUE,
-                    password TEXT NOT NULL
+                    password TEXT NOT NULL,
+                    role TEXT NOT NULL DEFAULT 'Guest User'  -- Add role column with default value
                 )'''
         cursor.execute(sql)
         conn.commit()
@@ -36,12 +37,13 @@ try:
         user_index = get_next_user_index()
         username = f'User{user_index}'
         password = f'Pass{user_index}'
+        role = 'Guest User'  # Set role to 'Guest User'
 
-        sql = 'INSERT INTO users (username, password) VALUES (?, ?)'
+        sql = 'INSERT INTO users (username, password, role) VALUES (?, ?, ?)'  # Include role in the query
         try:
-            cursor.execute(sql, (username, password))
+            cursor.execute(sql, (username, password, role))  # Insert role
             conn.commit()
-            print(f'User created: {username}, Password: {password}')
+            print(f'User created: {username}, Password: {password}, Role: {role}')
         except sqlite3.Error as e:
             print('Error inserting user:', e)
 
@@ -49,7 +51,7 @@ try:
     try:
         num_users_to_create = int(input("How many users do you want to create? "))
         for _ in range(num_users_to_create):
-            create_user()  # Move this inside the input handling block
+            create_user()
     except ValueError:
         print("Please enter a valid number.")
         exit()
