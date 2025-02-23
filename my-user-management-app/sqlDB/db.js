@@ -19,7 +19,8 @@ function createTable() {
     const sql = `CREATE TABLE IF NOT EXISTS users (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         username TEXT NOT NULL UNIQUE,
-        password TEXT NOT NULL
+        password TEXT NOT NULL,
+	role TEXT
     )`;
 
     db.run(sql, (err) => {
@@ -34,8 +35,10 @@ function createTable() {
 
 // Function to insert a user into the users table
 function insertUser() {
-    const username = 'admin01';  // Example username
-    const password = 'password01';  // Example password
+    const id = 1;
+    const username = 'Administrator';  
+    const password = 'AdminPassword'; 
+    const role= 'Administrator';
 
     // First, check if the user already exists
     const checkSql = `SELECT id FROM users WHERE username = ?`;
@@ -48,9 +51,9 @@ function insertUser() {
 
         // If row is null, the user does not exist; proceed with insertion
         if (!row) {
-            const sql = `INSERT INTO users (username, password) VALUES (?, ?)`;
+            const sql = `INSERT INTO users (username, password,role) VALUES (?, ?, ?)`;
 
-            db.run(sql, [username, password], function (err) {
+            db.run(sql, [username, password, role], function (err) {
                 if (err) {
                     console.error('Error inserting user: ' + err.message);
                 } else {
