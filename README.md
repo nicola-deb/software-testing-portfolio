@@ -10,7 +10,7 @@ This repository is a dynamic repository created to showcase my approach to QA me
 2. [Certifications](#certifications)
 3. [Key Skills](#key-skills)
 4. [QA Mindset & Methodologies](#qa-mindset--methodologies)
-5. [Web Application Project](#restful-web-application-project)
+5. [RESTful Web Application Project](#restful-web-application-project)
 6. [UI Test Automation Coding Project](#ui-automation-testing-project)
 
 
