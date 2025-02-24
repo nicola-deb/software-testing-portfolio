@@ -107,7 +107,7 @@ The [User Account Management System](https://github.com/nicola-deb/software-test
 
 ## UI Automation Testing Project
 
-This is a practical project where I use automation to test login, withdrawal and deposit features of a Banking Web Application as part of a Test Automatinon Course with Dublin Coding School, 2024. 
+This is a practical project where I use automation to test login, withdrawal and deposit features of a Banking Web Application as part of a Test Automation Course with Dublin Coding School, 2024. 
  
 Within the [cypress-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/cypress-script) folder, you will find a test script that uses the Cypress front-end testing tool, based on JavaScript. 
 
