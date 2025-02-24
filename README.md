@@ -72,7 +72,6 @@ JIRA | Confluence | Test Management Systems | Gerrit Code Review | Git Version C
 *More to be added soon!*
 
 
-
 ## RESTful Web Application Project 
 
 **Project Overview: User Account Management System**
