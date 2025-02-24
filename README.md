@@ -97,7 +97,7 @@ The [User Account Management System](https://github.com/nicola-deb/software-test
 **Testing**
 <br>
 - **Postman API Testing Tool:** Ensured the REST API endpoints function as intended for the POST, GET, PUT and DELETE requests.<br>
-- **Python Scripting:** Add/Delete users in batch for quick set-up of environment & performance testing.<br>
+- **Python Scripting:** Interactive script to Add/Delete a given number of users in batch for quick set-up of environment & performance testing.<br>
 - **Cypress & Javascript in Chrome:** To verify the functionality of the UI components & interactions.<br>
 - **Selenium & Java in Mozilla:** To be Added <br>
 - **Playright & Python:** To be Added <br>
