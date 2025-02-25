@@ -78,7 +78,7 @@ JIRA | Confluence | Test Management Systems | Gerrit Code Review | Git Version C
 
 The [User Account Management System](https://github.com/nicola-deb/software-testing-portfolio/tree/main/my-user-management-app) is a web application designed to facilitate the management of user accounts using various programming languages, technologies and test tools. <br>
 
-Please see the [README.md]((https://github.com/nicola-deb/software-testing-portfolio/tree/main/my-user-management-app/README.md) file for details of features, technologies and testing tools used in the implementation & test of this application.
+Please see the [README.md](https://github.com/nicola-deb/software-testing-portfolio/tree/main/my-user-management-app/README.md) file for details of features, technologies and testing tools used in the implementation & test of this application.
 
 
 ## UI Automation Testing Project
