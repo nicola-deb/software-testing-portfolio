@@ -22,7 +22,7 @@
   - Please see [here](https://github.com/nicola-deb/software-testing-portfolio/tree/main/my-user-management-app/Postman_TestCollection/postman_newman_cli_output_success.png) for the successful output of all tests.<br>
 
 - **Python Scripting:** Interactive scripts to manage users in batch for quick set-up of environment & performance testing.<br>
-  - The scripts to create, view and delete users are saved in the [test-scripts folder]([my-user-management-app/test-scripts](https://github.com/nicola-deb/software-testing-portfolio/tree/main/my-user-management-app/test-scripts)).<br>
+  - The scripts to create, view and delete users are saved in the [test-scripts folder]([my-user-management-app/test-scripts](https://github.com/nicola-deb/software-testing-portfolio/tree/main/my-user-management-app/test-scripts).<br>
   - Please see [here](https://github.com/nicola-deb/software-testing-portfolio/tree/main/my-user-management-app/test-scripts/script_terminal_output.png) for the successful output of all scripts.<br>
 
 To Be Added:
