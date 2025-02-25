@@ -18,12 +18,12 @@
 <br>
 - **Postman API Testing Tool:**<br>
   - I used the POSTMAN Tool to test the REST API endpoints used for the creation, read, update and deletion of users, via the relevant GET,POST,PUT and DELETE HTTP requests.<br>
-  - I saved this collection in the [Postman Folder](/Postman_TestCollection) which can also be run in the terminal via the "newman run" command.<br>
-  - Please see [here](my-user-management-app/Postman_TestCollection/postman_newman_cli_output_success.png) for the successful output of all tests.<br>
+  - I saved this collection in the [Postman Folder](https://github.com/nicola-deb/software-testing-portfolio/tree/main/my-user-management-app/Postman_TestCollection) which can also be run in the terminal via the "newman run" command.<br>
+  - Please see [here](https://github.com/nicola-deb/software-testing-portfolio/tree/main/my-user-management-app/Postman_TestCollection/postman_newman_cli_output_success.png) for the successful output of all tests.<br>
 
 - **Python Scripting:** Interactive scripts to manage users in batch for quick set-up of environment & performance testing.<br>
-  - The scripts to create, view and delete users are saved in the [test-scripts folder](my-user-management-app/test-scripts).<br>
-  - Please see [here](my-user-management-app/test-scripts/script_terminal_output.png) for the successful output of all scripts.<br>
+  - The scripts to create, view and delete users are saved in the [test-scripts folder]([my-user-management-app/test-scripts](https://github.com/nicola-deb/software-testing-portfolio/tree/main/my-user-management-app/test-scripts)).<br>
+  - Please see [here](https://github.com/nicola-deb/software-testing-portfolio/tree/main/my-user-management-app/test-scripts/script_terminal_output.png) for the successful output of all scripts.<br>
 
 To Be Added:
 - **Cypress & Javascript:** To verify the functionality of the UI components & interactions.<br>
