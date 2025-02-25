@@ -102,7 +102,7 @@ The [User Account Management System](https://github.com/nicola-deb/software-test
 To Be Added:
 - **Cypress & Javascript:** To verify the functionality of the UI components & interactions.<br>
 - **Selenium & Java:** To be Added <br>
-- **JMeter Performance Testing:** To be Added <br>
+- **JMeter Performance Testing:** To test user load, response time & throughput <br>
 
 
 
