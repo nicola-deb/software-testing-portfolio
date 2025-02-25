@@ -78,32 +78,7 @@ JIRA | Confluence | Test Management Systems | Gerrit Code Review | Git Version C
 
 The [User Account Management System](https://github.com/nicola-deb/software-testing-portfolio/tree/main/my-user-management-app) is a web application designed to facilitate the management of user accounts using various programming languages, technologies and test tools. <br>
 
-**Key Features** <br>
-- **User Management:** Functions to view, create, update, and delete user accounts via a RESTful API.<br>
-- **Backend Integration:** Node.js handles server-side logic and communicates with the SQLite database.<br>
-- **Database Management:** SQLite provides a lightweight and efficient storage solution for user data.<br>
-- **Batch Operations:** Python scripts enable batch addition, updating, or deletion of multiple users, streamlining user 
-  management tasks.
-
-**Technologies Used**
-<br>
-- **Frontend:** HTML, CSS, JavaScript<br>
-- **Backend:** Node.js<br>
-- **Database:** SQLite<br>
-- **REST API:** Endpoints for adding, updating, viewing, and deleting users.<br>
-- **Scripting:** Python for batch user operations.
-- **Git:** Version Control
-
-**Testing**
-<br>
-- **Postman API Testing Tool:** Test the REST API endpoints function as intended for the POST, GET, PUT and DELETE requests.<br>
-- **Python Scripting:** Interactive script to Add/Delete a given number of users in batch for quick set-up of environment & performance testing.<br>
-
-To Be Added:
-- **Cypress & Javascript:** To verify the functionality of the UI components & interactions.<br>
-- **Selenium & Java:** To verify the functionality
-- **JMeter Performance Testing:** To test user load, response time & throughput <br>
-
+Please see the [README.md]((https://github.com/nicola-deb/software-testing-portfolio/tree/main/my-user-management-app/README.md) file for details of features, technologies and testing tools used in the implementation & test of this application.
 
 
 ## UI Automation Testing Project
