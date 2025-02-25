@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "4802c4f2-5cea-447c-9672-3c276be83b55",
+		"name": "REST_API_TESTING",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "30919603",
+		"_collection_link": "https://planetary-spaceship-790008.postman.co/workspace/New-Team-Workspace~3f534d53-5d25-4669-aaf0-c513c7329e76/collection/30919603-4802c4f2-5cea-447c-9672-3c276be83b55?action=share&source=collection_link&creator=30919603"
+	},
+	"item": [
+		{
+			"name": "Login in Administrator User",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Auth",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"Administrator\",\r\n    \"password\": \"TestPassw0rd\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/login"
+			},
+			"response": []
+		},
+		{
+			"name": "Create a new User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"TestUser\",\r\n    \"password\": \"TestPassw0rd\",\r\n    \"role\": \"Customer Support\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/users"
+			},
+			"response": []
+		},
+		{
+			"name": "Get a User by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/users/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/users"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Password of a given User",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"User2\",\r\n    \"password\": \"UserPassw0rd\",\r\n    \"role\": \"Customer Support\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/users/2"
+			},
+			"response": []
+		},
+		{
+			"name": "Get the role of User 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/users/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a User",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:3000/api/users/3"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete All Users in the System",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:3000/api/users/"
+			},
+			"response": []
+		}
+	]
+}
