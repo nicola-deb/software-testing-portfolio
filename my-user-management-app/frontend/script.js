@@ -10,7 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
 	if (viewUsersButton) {
 		viewUsersButton.addEventListener('click', fetchUserData);
 	}
-	fetchUserData();
+	//Refresh only on homepage
+	if(window.location.href === 'http://localhost:3000/homepage.html'){
+		fetchUserData();
+	}
 });
 
 // Function to handle login

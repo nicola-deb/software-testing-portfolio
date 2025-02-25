@@ -28,18 +28,14 @@ function createTable() {
             console.error('Error creating table: ' + err.message);
         } else {
             console.log('Users table created or already exists.');
-            insertUser();
-        }
+            insertUser(1, 'Administrator', 'TestPassw0rd', 'Administrator');
+            insertUser(2, 'User2', 'TestPassw0rd', 'Customer Support');
+	}
     });
 }
 
 // Function to insert a user into the users table
-function insertUser() {
-    const id = 1;
-    const username = 'Administrator';  
-    const password = 'AdminPassword'; 
-    const role= 'Administrator';
-
+function insertUser(id, username, password, role) {
     // First, check if the user already exists
     const checkSql = `SELECT id FROM users WHERE username = ?`;
 
@@ -49,11 +45,11 @@ function insertUser() {
             return;
         }
 
-        // If row is null, the user does not exist; proceed with insertion
+        // If the user does not exist, proceed with insertion
         if (!row) {
-            const sql = `INSERT INTO users (username, password,role) VALUES (?, ?, ?)`;
+            const sql = `INSERT INTO users (id, username, password, role) VALUES (?, ?, ?, ?)`;
 
-            db.run(sql, [username, password, role], function (err) {
+            db.run(sql, [id, username, password, role], function (err) {
                 if (err) {
                     console.error('Error inserting user: ' + err.message);
                 } else {
