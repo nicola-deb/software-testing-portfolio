@@ -31,7 +31,7 @@ As an experienced, results-driven Software QA Engineer, I deliver value in the f
 ## Certifications
 
 I am committed to my personal and professional development and enjoy keeping engaged & informed of emerging trends and technologies in the QA & UX sphere. 
-I am also an active member of the "Ministry of Testing", "uTest" and "UX Design Institue" Communities. 
+I am also an active member of the "Ministry of Testing", "uTest" and "UX Design Institute" Communities. 
 
 [ISTQB Tester](./Certifications/ISTQB_Certifications/Tester.pdf)
 
