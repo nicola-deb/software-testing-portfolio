@@ -63,11 +63,11 @@ JIRA | Confluence | Test Management Systems | Gerrit Code Review | Git Version C
 
 ## QA Mindset & Methodologies
 
-*[QA Mindset](./QA_Methodologies/QA_Mindset)*
+*[QA Mindset](./QA_Methodologies/QA_Mindset.md)* 
 
-*[QA Strategy](./QA_Methodologies/QA_Strategy)*
+*[QA Strategy](./QA_Methodologies/QA_Strategy.md)*
 
-*[What makes a good Defect Report?](./QA_Methodologies/Defect_Reporting)*
+*[What makes a good Defect Report?](./QA_Methodologies/Defect_Reporting.md)*
 
 *More to be added soon!*
 
