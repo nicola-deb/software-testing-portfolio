@@ -67,7 +67,7 @@ JIRA | Confluence | Test Management Systems | Gerrit Code Review | Git Version C
 
 *[QA Strategy](./QA_Methodologies/QA_Strategy)*
 
-*[What makes a good Bug Report?](./QA_Methodologies/Defect_Reporting)*
+*[What makes a good Defect Report?](./QA_Methodologies/Defect_Reporting)*
 
 *More to be added soon!*
 
