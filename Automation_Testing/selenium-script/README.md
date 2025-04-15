@@ -7,4 +7,4 @@ It logs in as a customer, performs a deposit, and then executes a withdrawal, wh
 - Apache Maven 
 - IntelliJ IDEA
 - Chrome Web Browser 
-- ChromeDriver that matches your Chrome browser version
+- ChromeDriver (that matches the Chrome browser version)
