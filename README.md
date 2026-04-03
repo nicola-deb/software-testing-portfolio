@@ -90,3 +90,10 @@ Within the [cypress-script](https://github.com/nicola-deb/software-testing-portf
 Within the [selenium-script](https://github.com/nicola-deb/software-testing-portfolio/tree/main/Automation_Testing/selenium-script) folder, you will find a test script that uses the Selenium test automation tool, based on Java. 
 
 
+## Automated Test Reporting Project
+
+This is a practical project I completed as part of my final coursework when completing the Professional Diploma in Business Automation (Python) with UCD Professional Academy.
+
+The aim of my project was to provide a structured and standardized approach to Defect and Test Reporting, by consolidating data from multiple sources (Excel, CSV, JIRA REST API), analysing the collected data and communicating the results to stakeholders by e-mail using a scheduled automated pipeline.
+
+To be uploaded shortly! 
